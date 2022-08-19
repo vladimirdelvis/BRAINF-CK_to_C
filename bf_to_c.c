@@ -47,7 +47,7 @@ int main(int argc, char** argv){
     char* ptr = getchars();
     int index = 0;
     char test_val = 0;
-    fprintf(fl,"%s%d%s%d%s","#include <stdio.h>\n#include <string.h>\n\n"
+    fprintf(fl,"%s%d%s%d%s","#include <stdio.h>\n#include <string.h>\n#include <stdlib.h>\n\n"
     "int main(int argc, char **argv){\nunsigned char *pointer = calloc(",max_mem,",1);\n"
     "unsigned char* ptr2 = pointer;\n"
     "unsigned long endstr_long = strlen(argv[argc - 1]) + 1;\n"
